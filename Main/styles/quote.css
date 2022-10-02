@@ -1,0 +1,17 @@
+.block-quote{
+    margin-top: 10%;
+    background-color: var(--quote-bg-color);
+    padding: 5%;
+}
+
+.quote{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    color: var(--quote-text-color);
+}
+
+.start{
+    text-align: initial;
+    padding-left: 21%;
+}

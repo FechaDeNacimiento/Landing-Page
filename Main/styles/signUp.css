@@ -1,0 +1,12 @@
+.action{
+    background-color: #000;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    margin-top: 5%;
+    margin-left: 220px;
+    width: 70%;
+    border-radius: 25px;
+}

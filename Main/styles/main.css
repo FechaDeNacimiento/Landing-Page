@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 14%;
+}
+
+.hero-text{
+    font-size: var(--main-text-size);
+    font-weight: bolder;
+    color: var(--main-text-color);
+}
+
+.secondary-text{
+    font-size: var(--secondary-text-size);
+    color: var(--secondary-text-color);
+    font-weight: 300;
+}
+
+p::selection{
+    color: var(--secondary-text-color);
+}
+
+.button, .btn{
+    font-size: 1rem;
+    padding: 8px 30px;
+    font-weight: 700;
+    color: #000;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin-top: 15px;
+}

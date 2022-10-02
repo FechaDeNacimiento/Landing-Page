@@ -1,0 +1,27 @@
+.header, .main-header{
+  background-color: var(--dark-background-color);
+  color: white;
+  width: 100%;
+  height: auto;
+  padding-left: 15%;
+  padding-right: 10%;
+}
+
+.bar,.main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bar ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+  list-style-type: none;
+}
+
+.logo{
+  font-size: 1rem;
+  color: var(--header-text-color);
+}
